@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Ships']
+
+roboflow:
+  workspace: creator2004
+  project: ships-dataset-labeling-jkbpj
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/creator2004/ships-dataset-labeling-jkbpj/dataset/1
